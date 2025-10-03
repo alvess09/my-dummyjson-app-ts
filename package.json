@@ -1,7 +1,7 @@
 {
-  "name": "my-dummyjson-app-ts",
+  "name": "dummyjson-products-app-ts",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -9,10 +9,16 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "~54.0.10",
-    "expo-status-bar": "~3.0.8",
-    "react": "19.1.0",
-    "react-native": "0.81.4"
+    "@react-navigation/native": "^6.1.18",
+    "@react-navigation/native-stack": "^6.11.0",
+    "expo": "^51.0.0",
+    "react": "18.2.0",
+    "react-native": "0.73.6"
   },
-  "private": true
+  "devDependencies": {
+    "@types/react": "~18.2.14",
+    "@types/react-native": "^0.73.0",
+    "@types/react-navigation": "^3.4.0",
+    "typescript": "^5.2.0"
+  }
 }
